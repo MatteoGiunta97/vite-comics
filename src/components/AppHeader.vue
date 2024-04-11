@@ -14,7 +14,7 @@
                 <li>
                     <a href="#">CHARACTERS</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="#">COMICS</a>
                 </li>
                 <li>
@@ -47,6 +47,8 @@
 </template>
 
 <style scoped lang="scss">
+@use '../style/partials/variables' as *;
+
     header {
         max-height: 150px;
         display: flex;
@@ -55,7 +57,7 @@
         padding: 10px 20px;
 
         nav {
-          
+
             ul {
             display: flex;
             list-style: none;
@@ -64,9 +66,13 @@
                     margin-left: 15px;
 
                     a {
+                    color: rgb(94, 93, 93);
                     text-decoration: none;
-                    color: black;
                     font-weight: bold;
+
+                        &.active {
+                            color: $brand-primary;
+                        }
                     }
                 }
             }
