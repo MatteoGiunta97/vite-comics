@@ -11,6 +11,10 @@
 
 <template>
 
-
+  Hello
 
 </template>
+
+<style lang="scss">
+  @use './style/generic';
+</style>
