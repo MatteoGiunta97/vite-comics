@@ -60,7 +60,6 @@
             
             ul {
                 display: flex;
-                list-style: none;
 
                 li {
                     height: 120px;
