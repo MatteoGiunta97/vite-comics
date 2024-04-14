@@ -55,36 +55,35 @@
         align-items: center;
         
         nav {
-        display: contents;
+            display: contents;
 
             
             ul {
-            display: flex;
-            justify-content: space-evenly;
-            flex-grow: 1;
-            list-style: none;
+                display: flex;
+                list-style: none;
 
                 li {
-                height: 120px;
-                display: flex;
-                align-items: center;
-                position: relative;
+                    height: 120px;
+                    margin-left: 20px;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
 
                     &.active::after {
-                    color: $brand-primary;
-                    content: '';
-                    width: 100%;
-                    height: 7px;
-                    background-color: $brand-primary;
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
+                        color: $brand-primary;
+                        content: '';
+                        width: 100%;
+                        height: 7px;
+                        background-color: $brand-primary;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
                     }
 
                     a {
-                    color: rgb(94, 93, 93);
-                    text-decoration: none;
-                    font-weight: bold;
+                        color: rgb(94, 93, 93);
+                        text-decoration: none;
+                        font-weight: bold;
                     }
                 }
             }
