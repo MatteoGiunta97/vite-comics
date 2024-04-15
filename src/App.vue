@@ -20,10 +20,8 @@
   <AppHeader></AppHeader>
 
   <main>
-
     <AppProductsList></AppProductsList>
     <AppMainNav></AppMainNav>
-
   </main>
 
   <AppFooter></AppFooter>

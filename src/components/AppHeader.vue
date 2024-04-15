@@ -14,7 +14,7 @@
                 <li>
                     <a href="#">CHARACTERS</a>
                 </li>
-                <li class="active">
+                <li id="active">
                     <a href="#">COMICS</a>
                 </li>
                 <li>
@@ -68,7 +68,7 @@
                     align-items: center;
                     position: relative;
 
-                    &.active::after {
+                    &#active::after {
                         color: $brand-primary;
                         content: '';
                         width: 100%;
@@ -81,7 +81,6 @@
 
                     a {
                         color: rgb(94, 93, 93);
-                        text-decoration: none;
                         font-weight: bold;
                     }
                 }

@@ -10,24 +10,34 @@
             <nav>
                 <ul>
                     <li>
-                        <img src="../assets/img/buy-comics-digital-comics.png">
-                        <h3>DIGITAL COMICS</h3>
+                        <a href="#">
+                            <img src="../assets/img/buy-comics-digital-comics.png">
+                            <h3>DIGITAL COMICS</h3>
+                        </a>
                     </li>
                     <li>
-                        <img src="../assets/img/buy-comics-merchandise.png">
-                        <h3>DC MERCHANDISE</h3>
+                        <a href="#">
+                            <img src="../assets/img/buy-comics-merchandise.png">
+                            <h3>DC MERCHANDISE</h3>
+                        </a>
                     </li>
                     <li>
-                        <img src="../assets/img/buy-comics-subscriptions.png">
-                        <h3>SUBSCRIPTION</h3>
+                        <a href="#">
+                            <img src="../assets/img/buy-comics-subscriptions.png">
+                            <h3>SUBSCRIPTION</h3>  
+                        </a>
                     </li>
                     <li>
-                        <img src="../assets/img/buy-comics-shop-locator.png">
-                        <h3>COMIC SHOP LOCATOR</h3>
+                        <a href="#">
+                            <img src="../assets/img/buy-comics-shop-locator.png">
+                            <h3>COMIC SHOP LOCATOR</h3>
+                        </a>
                     </li>
                     <li>
-                        <img src="../assets/img/buy-dc-power-visa.svg">
-                        <h3>DC POWER VISA</h3>
+                        <a href="#">
+                            <img src="../assets/img/buy-dc-power-visa.svg">
+                            <h3>DC POWER VISA</h3>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -47,7 +57,7 @@
             justify-content: space-around;
             color: white;
 
-            li {
+            a {
                 display: flex;
                 align-items: center;
 
